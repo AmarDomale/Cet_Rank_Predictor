@@ -32,7 +32,7 @@ def index():
         mobile = request.form['mob']
         name = request.form['name1']
         score = float(request.form['score'])
-        insert_data(mobile, name, score)
+        # insert_data(mobile, name, score)
         # Insert data and calculate the rank based on the score
         rank  = int(180474 - ( score * 180474 / 100))+1
 
